@@ -6,10 +6,10 @@ html{
 	color: #fff;
 }
 
-.header{}
-.header__logo{}
-
-
+a, a:hover, a:focus{
+	color: #fff;
+	text-decoration: underline;
+}
 .content{
 	padding: 15px;
 	max-width: 960px;
@@ -18,23 +18,28 @@ html{
 
 
 .content .content__intro .title{
-	font-family: Open Sans;
+	font-family: 'Open Sans', Arial, sans-serif;
 	font-size: 1.5rem;
 }
 .content .content__intro .subtitle{
-	font-family: Playfair Display;
+	font-family: 'Playfair Display', "Times New Roman", serif;
 	font-size: 6rem;
 	text-align: center;
 	margin-top: 8rem;
 }
 .content .content__invite{
 	text-align: center;
+	padding: 20px;
+	border: 1px solid #fff;
+	border-left: 0;
+	border-right: 0;
 }
 .content .content__invite .tagline{
-	font-family: Open Sans;
+	font-family: 'Open Sans', Arial, sans-serif;
 	text-align: center;
 	font-size: 1rem;
 	max-width: 500px;
+	margin: 0 auto;
 }
 .content .content__invite .hr {
 	width: 500px;
@@ -48,10 +53,16 @@ html{
 }
 
 
-.content .content__contact{}
+.content .content__contact{
+	margin-top: 30px;
+	font-family: 'Playfair Display', "Times New Roman", serif;
+	font-size: 20px;
+}
 
 
-.footer{}
+.footer{
+	padding: 30px;
+}
 .footer .footer__item{
 	text-decoration-color: #ffff;
 }
