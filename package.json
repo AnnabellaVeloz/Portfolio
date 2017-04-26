@@ -1,13 +1,17 @@
 {
   "name": "annabella_portfolio",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "description": "Personal portfolio",
+  "main": "index.html",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Annabella Veloz",
   "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/josesentis15/Portfolio.git"
+  },
   "scripts": {
       "deploy": "gh-pages -d dist"
   },
